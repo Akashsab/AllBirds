@@ -1,0 +1,17 @@
+.so
+{
+    width: 100%;
+    text-align: center;
+    background-image: url(C:\Users\Admin\Desktop\react\project\src\images\bgs.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    color: white;
+}
+.no
+{
+    width: 100%;
+    padding-left: 20px;
+}
