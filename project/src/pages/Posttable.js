@@ -9,7 +9,7 @@ const Posttable = () => {
     const[ProductItems,setProductsItems]=useState([]);
 
     useEffect(()=>{
-        fetch(`http://localhost:7000/insertget`)
+        fetch(`https://all-birds-clone-2.onrender.com/insertget`)
     .then((res)=>res.json())
     .then((data)=>
     setProductsItems(data))
