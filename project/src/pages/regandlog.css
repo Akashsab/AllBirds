@@ -1,0 +1,89 @@
+.reg
+{
+    width: 100%;
+    background-image: url(C:\Users\Admin\Desktop\react\project\src\images\form.jpg);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1300px;
+    
+    
+}
+.regg
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(C:\Users\Admin\Desktop\react\project\src\images\login.jpg);
+        background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+    
+}
+.fop
+{
+   
+    border-style: solid;
+    width: 25%;
+    
+    margin-left: 500px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+                border: 0px;
+    border-radius: 10px;
+    border-style:solid;
+    
+    background: rgba(255, 255, 255, 0.2);
+     backdrop-filter: blur(10px);
+     color: #000000;
+     padding: 20px;
+     
+}
+.fopp
+{
+   
+    border-style: solid;
+    width: 25%;
+    
+    margin-left: 400px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+                border: 0px;
+    border-radius: 10px;
+    border-style:solid;
+    
+    background: rgba(255, 255, 255, 0.2);
+     backdrop-filter: blur(10px);
+     color: #000000;
+     padding: 20px;
+     
+}
+.inn
+{
+    border: 0px ;
+    border-style: none;
+    border-radius: 1px;
+    padding-top: 10px;
+    width: 250px;
+}
+.rl
+{
+    border: 0px ;
+    border-style: none;
+    border-radius: 1px;
+    margin-left: 90px; 
+    height: 30px;
+    width: 90px;
+    transition: 0.3s;
+    
+}
+.rl:hover
+{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+
+}

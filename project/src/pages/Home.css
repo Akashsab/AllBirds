@@ -1,0 +1,570 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.row2
+{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    background-color: rgb(237, 237, 237);
+    
+}
+ul{
+    list-style: none;
+    text-align: center;
+
+}
+.list2
+{
+    display: inline;
+    font-weight:normal;
+    font-size: 15px;
+
+}
+.sn
+{
+    color: rgb(33, 33, 33);
+    text-align: right;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.par1{
+    color: rgb(33, 33, 33);
+    text-align: right;
+}
+.ne
+{
+    color: white;
+    text-align: right;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.par2
+{
+    color:white;
+    text-align: right;
+}
+.men
+{
+    background-color: white;
+    border: 0px;
+    border-radius: 0px;
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 400px;
+    transition: 0.3s;
+    
+}
+.men:hover, .women:hover, .hover2:hover, .hover3:hover, .bu1:hover, .bu2:hover, .s:hover, .sh:hover, .watch:hover
+{
+        background-color: black;
+    color: white;
+
+}
+.women
+{
+    background-color: white;
+    border: 0px;
+    border-radius: 0px;
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 30px;
+}
+.sec3
+{
+    width: 100%;
+    display: flex;
+    padding-left: 40px;
+    
+    
+}
+.column1, .column2, .column3
+{
+    width: 33%;
+     margin: 10px;
+      transition: 0.3s;
+
+}
+.column1:hover
+{
+    background-size: 425px;
+    
+}
+.column1{
+    background-image: url(C:\Users\Admin\Desktop\react\project\src\images\cl1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: 400px;
+    
+
+   
+}
+.column2:hover
+{
+    background-size: 425px;
+    
+}
+
+.column2{
+    background-image: url(C:\Users\Admin\Desktop\react\project\src\images\cl2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: 400px;
+    
+}
+.column3:hover
+{
+    background-size: 425px;
+    
+    
+}
+.column3
+{
+    background-image: url(C:\Users\Admin\Desktop\react\project\src\images\cl3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: 400px;
+    padding-right: 50px;
+    margin-right: 20px;
+}
+.bes
+{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.par3
+{
+    text-align: center;
+    color: white;
+}
+.hover2
+{ 
+
+    display: none;
+    background-color: white;
+    border: 0px;
+    border-radius: 0px;
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 30px;
+    margin-top: 280px;
+    transition: 0.3s;
+    
+}
+.column1:hover .hover2{
+    display: inline-block;
+
+    
+}
+.column2:hover .hover2{
+     display: inline-block;
+}
+.column3:hover .hover3{
+    display: inline-block;
+}
+.hover3
+{
+       display: none;
+    background-color: white;
+    border: 0px;
+    border-radius: 0px;
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 23px;
+    margin-top: 280px;
+    transition: 0.3s;
+} 
+.sec4
+{
+    width: 100%;
+    text-align: center;
+    background-image: url(C:\Users\Admin\Desktop\react\project\src\images\bg3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1300px;
+
+}
+.hh
+{
+    color: white;
+    font-size: 30px;
+    padding-top: 65px;
+}
+.parr
+{
+    color: white;
+    font-size: 20px;
+}
+.sec5
+{
+    width: 100%;
+    display: flex;
+}
+.column4
+{
+    width: 50%;
+    background-image: url(C:\Users\Admin\Desktop\react\project\src\images\bg4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 101.6vh;
+    background-size:680px;
+    padding-left: 50px;
+    margin-left: 25px;
+    color: white;
+    padding-top: 440px;
+    transition: 0.3s;
+
+
+}
+.column4:hover{
+    background-size: 710px;
+}
+.rock
+{
+    font-size: 25px;
+}
+.bu1
+{
+    background-color: white;
+    border: 0px;
+    border-radius: 0px;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    transition: 0.3s;
+
+}
+.bu2
+{    background-color: white;
+    border: 0px;
+    border-radius: 0px;
+    height: 40px;
+    margin-left: 15px;
+    width: 150px;
+    font-size: 15px;
+    transition: 0.3s;
+
+}
+.column5
+{
+    width: 50%;
+}
+.row3
+{
+    width: 100%;
+    display: flex;
+}
+.subcl1
+{
+    width: 50%;
+    background-image: url(C:\Users\Admin\Desktop\react\project\src\images\bg6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
+    height: 50vh;
+    background-color: rgb(245, 245, 245);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 235px;
+    transition: 0.3s;
+    
+
+}
+.subcl1:hover{
+    background-size: 285px;
+}
+.subcl2
+{
+    width: 50%;
+    background-image: url(C:\Users\Admin\Desktop\react\project\src\images\bg7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 235px;
+    height: 50vh;
+    background-color: rgb(245, 245, 245);
+    padding-top: 235px;
+    transition: 0.3s;
+
+}
+.subcl2:hover
+{
+    background-size: 285px;
+}
+.d{
+    color: rgb(181, 0, 0);
+}
+.dd
+{
+    text-decoration: line-through;
+    
+}
+.tree
+{
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.rus
+{
+    font-size: 13px;
+    padding-left: 20px;
+    
+}
+.row4
+{
+    width: 100%;
+    display: flex;
+}
+.subcl3
+{
+    width: 50%;
+    background-image: url(C:\Users\Admin\Desktop\react\project\src\images\bg8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
+    height: 50vh;
+    background-color: rgb(245, 245, 245);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 235px;
+    transition: 0.3s;
+}
+.subcl3:hover{
+    background-size: 285px;
+}
+.subcl4
+{
+        width: 50%;
+    background-image: url(C:\Users\Admin\Desktop\react\project\src\images\bg9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
+    height: 50vh;
+    background-color: rgb(245, 245, 245);
+
+    padding-top: 235px;
+    transition: 0.3s;
+}
+.subcl4:hover
+{
+    background-size: 285px;
+}
+.sec6
+{
+    width: 100%;
+    display: flex;
+}
+.column6
+{
+    width: 53%;
+    background-image: url(C:\Users\Admin\Desktop\react\project\src\images\bg10.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 110vh;
+    background-size: 660px;
+    transition: 0.3s;
+}
+.column6:hover{
+    background-size: 690px;
+}
+.column7
+{
+    width: 50%;
+    background-image: url(C:\Users\Admin\Desktop\react\project\src\images\bg11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 110vh;
+    background-size: 650px;
+    margin-left: 10px;
+    transition: 0.3s;
+
+}
+.column7:hover{
+    background-size: 690px;
+}
+.c
+{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+.hos
+{
+    color: white;
+    text-align: center;
+
+}
+.watch
+{
+    display: none;
+    background-color: white;
+    border: 0px;
+    border-radius: 0px;
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 250px;
+    margin-top: 480px;
+    font-size: 14px;
+    transition: 0.3s;
+    
+
+}
+.column6:hover .watch{
+    display: inline-block;
+}
+.s{
+    display: none;
+    background-color: white;
+    border: 0px;
+    border-radius: 0px;
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 14px;
+    margin-left: 170px;
+    margin-top: 480px;
+    transition: 0.3s;
+}
+.sh{
+    display: none;
+    background-color: white;
+    border: 0px;
+    border-radius: 0px;
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 480px;
+    transition: 0.3s;
+}
+.column7:hover .s{
+    display: inline-block;
+}
+.column7:hover .sh{
+    display: inline-block;
+}
+.more {
+    color:black;
+    font-size: 18px;
+    padding-left: 40px;
+}
+.carousel-inner
+{
+    display: flex;
+}
+.card
+{
+    border: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    transition: 0.3s;
+    overflow: hidden;
+}
+.card-title
+{
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.card-text
+{
+    font-size: 15px;
+}
+.card-img-top
+{
+    transition: 0.3s;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    
+}
+.card:hover .card-img-top
+{
+   transform: scale(1.1);
+  
+}
+.sec8
+{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}
+.want
+{
+    font-weight: bold;
+    font-size: 35px;
+}
+#textt
+{
+    border: 0px;
+    border-radius: 0px;
+    padding-right: 280px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    
+    
+}
+.up
+{
+    height: 43px;
+    width: 80px;
+    border: 0px;
+    background-color:black;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.up:hover{
+    background-color: white;
+    color: black;
+}
+.note
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.shoe
+{
+    
+    background-color: white;
+    border: 0px;
+    border-radius: 0px;
+   height: 25px;
+   width:80px;
+   transition: 0.3s;
+ 
+}
+.shoe:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
