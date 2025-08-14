@@ -11,14 +11,14 @@ const Update = () => {
      const[ProductItems,setProductsItems]=useState([]);
 
   useEffect(()=>{
-      fetch(`http://localhost:7000/reviewget`)
+      fetch(`https://all-birds-clone-2.onrender.com/reviewget`)
       .then((res)=>res.json())
       .then((data)=>
           setProductsItems(data))
   },[])
   
    const DeleteItems=(id)=>{
-    fetch(`http://localhost:7000/reviewdelete/${id}`,{
+    fetch(`https://all-birds-clone-2.onrender.com/reviewdelete/${id}`,{
       method:"DELETE",})
       .then((res)=>res.json())
       .then((data)=>{
