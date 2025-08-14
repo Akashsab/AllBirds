@@ -25,7 +25,7 @@ const Upload = () => {
             const foods={quality,fit,brand,improvement,quantity};
             // console.log(foods,"foods in object ");
             
-            fetch('http://localhost:7000/reviewpost',{
+            fetch('https://all-birds-clone-2.onrender.com/reviewpost',{
                 method:"POST",
                 headers:{
                     'Content-Type':'application/json'
