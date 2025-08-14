@@ -20,7 +20,7 @@ const Post = () => {
         else{
             const coll={gender,favoutfit,size,favclr,quantity};
 
-            fetch('http://localhost:7000/insertpost' , {
+            fetch('https://all-birds-clone-2.onrender.com/insertpost' , {
                 method:'POST',
                 headers:{
                     'content-type':'application/json'
