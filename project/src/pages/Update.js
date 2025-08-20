@@ -11,14 +11,14 @@ const Update = () => {
      const[ProductItems,setProductsItems]=useState([]);
 
   useEffect(()=>{
-      fetch(`https://all-birds-clone-2.onrender.com/reviewget`)
+      fetch(`https://allbirds-backend.onrender.com/reviewget`)
       .then((res)=>res.json())
       .then((data)=>
           setProductsItems(data))
   },[])
   
    const DeleteItems=(id)=>{
-    fetch(`https://all-birds-clone-2.onrender.com/reviewdelete/${id}`,{
+    fetch(`https://allbirds-backend.onrender.com/${id}`,{
       method:"DELETE",})
       .then((res)=>res.json())
       .then((data)=>{
