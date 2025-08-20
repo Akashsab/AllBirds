@@ -3,10 +3,15 @@ const cors=require("cors");
 const bcrypt=require('bcryptjs');
 const jwt=require('jsonwebtoken');
 
+
 const port=process.env.port || 7000;
 const app=express();
 
-app.use(cors())
+app.use(cors({
+  origin: "https://tubular-praline-e659b5.netlify.app/", 
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 app.use(express.json())
 
 const users=[];
