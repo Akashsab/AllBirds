@@ -9,7 +9,7 @@ const Posttable = () => {
     const[ProductItems,setProductsItems]=useState([]);
 
     useEffect(()=>{
-        fetch(`https://all-birds-clone-2.onrender.com/insertget`)
+        fetch(`https://allbirds-backend.onrender.com/insertget`)
     .then((res)=>res.json())
     .then((data)=>
     setProductsItems(data))
@@ -17,7 +17,7 @@ const Posttable = () => {
 
     const DeleteItems=(id)=>{
 
-        fetch(`http://localhost:7000/insertdelete/${id}`,{
+        fetch(`https://allbirds-backend.onrender.com/${id}`,{
             method:"DELETE",
           })
             .then((res)=>res.json())
