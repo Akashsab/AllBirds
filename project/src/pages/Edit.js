@@ -12,7 +12,7 @@ const Edit = () => {
     const [productsItems,setproductsItems]=useState ({})
 
     useEffect(()=>{
-     fetch(`http://localhost:7000/insertget/${id}`)
+     fetch(`https://allbirds-backend.onrender.com/${id}`)
        .then((res)=>res.json())
        .then((data)=>setproductsItems(data))
       },[])
@@ -29,7 +29,7 @@ const Edit = () => {
     const update={gender,favoutfit,size,favclr,quantity};
     console.log(update);
 
-    fetch(`http://localhost:7000/insertpatch/${id}`,{
+    fetch(`https://allbirds-backend.onrender.com/${id}`,{
         method:"PATCH",
         headers:{
             'content-type':'application/json'
