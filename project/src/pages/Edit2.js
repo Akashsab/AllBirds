@@ -10,7 +10,7 @@ const Edit2 = () => {
 
     useEffect(()=>
     {
-        fetch(`http://localhost:7000/reviewget/${id}`)
+        fetch(`https://allbirds-backend.onrender.com/${id}`)
         .then((res)=>res.json())
         .then((data)=>setProductsItems(data))
     },[])
@@ -27,7 +27,7 @@ const Edit2 = () => {
         const update={quality,fit,brand,improvement,quantity}
         console.log(update);
 
-        fetch(`http://localhost:7000/reviewpatch/${id}`,{
+        fetch(`https://allbirds-backend.onrender.com/${id}`,{
             method:"PATCH",
             headers:{
                 'content-type':'application/json'
