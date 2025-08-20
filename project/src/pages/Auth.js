@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const API_URL='http://localhost:7000/';
+const API_URL='https://allbirds-backend.onrender.com';
  export const register=async(username,password)=>{
     const data =JSON.stringify({username,password})
 
